@@ -37,10 +37,8 @@
     "effects": {
         "attributes": [
             {
-                "operation": "add_value",
-                "amount": 2,
-                "id": "attack_speed_boost",
-                "attribute": "attack_speed"
+                "id": "guarding_effect",
+                "attribute": ""
             }
         ]
     }
