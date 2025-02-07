@@ -1,0 +1,47 @@
+{
+    "supported_items": [
+        "minecraft:wooden_sword",
+        "minecraft:stone_sword",
+        "minecraft:iron_sword",
+        "minecraft:golden_sword",
+        "minecraft:diamond_sword",
+        "minecraft:netherite_sword",
+        "minecraft:wooden_axe",
+        "minecraft:stone_axe",
+        "iron_axe",
+        "golden_axe",
+        "diamond_axe",
+        "netherite_axe"
+    ],
+    "primary_items": [
+        "minecraft:wooden_sword",
+        "minecraft:stone_sword",
+        "minecraft:iron_sword",
+        "minecraft:golden_sword",
+        "minecraft:diamond_sword",
+        "minecraft:netherite_sword"
+    ],
+    "description": "Guarding",
+    "slots": ["mainhand"],
+    "weight": 5,
+    "anvil_cost": 10,
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 5
+    },
+    "max_cost": {
+        "base": 25,
+        "per_level_above_first": 5
+    },
+    "max_level": 2,
+    "effects": {
+        "attributes": [
+            {
+                "operation": "add_value",
+                "amount": 2,
+                "id": "attack_speed_boost",
+                "attribute": "attack_speed"
+            }
+        ]
+    }
+}

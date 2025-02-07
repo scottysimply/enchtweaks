@@ -1,0 +1,105 @@
+{
+    "type": "empty",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "group",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "wooden_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "wooden_axe"
+                        },
+                        {
+                            "type": "item",
+                            "name": "stone_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "stone_axe"
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "iron_axe"
+                        },
+                        {
+                            "type": "item",
+                            "name": "golden_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "golden_axe"
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "diamond_axe"
+                        },
+                        {
+                            "type": "item",
+                            "name": "netherite_sword"
+                        },
+                        {
+                            "type": "item",
+                            "name": "netherite_axe"
+                        }
+                    ],
+                    "functions": [
+                        {
+                            "function": "apply_bonus",
+                            "enchantment": "enchtweaks:guarding",
+                            "formula": "minecraft:uniform_bonus_count",
+                            "parameters": {
+                                "bonusMultiplier": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:blocks_attacks": {
+                                    "block_delay_seconds": 0.25,
+                                    "damage_reductions": [
+                                        {
+                                            "base": 0,
+                                            "factor": 0.15,
+                                            "horizontal_blocking_angle": 70,
+                                            "type": [
+                                                "arrow",
+                                                "cactus",
+                                                "ender_pearl",
+                                                "explosion",
+                                                "falling_stalactite",
+                                                "fireball",
+                                                "fireworks",
+                                                "magic",
+                                                "mace_smash",
+                                                "mob_attack",
+                                                "mob_attack_no_aggro",
+                                                "player_attack",
+                                                "player_explosion",
+                                                "trident",
+                                                "wither_skull"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
