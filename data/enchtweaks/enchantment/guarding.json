@@ -27,19 +27,11 @@
     "anvil_cost": 10,
     "min_cost": {
         "base": 10,
-        "per_level_above_first": 5
+        "per_level_above_first": 0
     },
     "max_cost": {
         "base": 25,
-        "per_level_above_first": 5
+        "per_level_above_first": 0
     },
-    "max_level": 2,
-    "effects": {
-        "attributes": [
-            {
-                "id": "guarding_effect",
-                "attribute": ""
-            }
-        ]
-    }
+    "max_level": 1
 }

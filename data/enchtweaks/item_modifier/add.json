@@ -1,0 +1,40 @@
+{
+    "function": "minecraft:sequence",
+    "functions": [
+        {
+            "function": "set_components",
+            "components": {
+                "custom_data": {
+                    "has_guarding": true
+                },
+                "minecraft:blocks_attacks": {
+                    "block_delay_seconds": 0.25,
+                    "damage_reductions": [
+                        {
+                            "base": 0,
+                            "factor": 0.15,
+                            "horizontal_blocking_angle": 70,
+                            "type": [
+                                "arrow",
+                                "cactus",
+                                "ender_pearl",
+                                "explosion",
+                                "falling_stalactite",
+                                "fireball",
+                                "fireworks",
+                                "magic",
+                                "mace_smash",
+                                "mob_attack",
+                                "mob_attack_no_aggro",
+                                "player_attack",
+                                "player_explosion",
+                                "trident",
+                                "wither_skull"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
