@@ -15,26 +15,11 @@
                     }
                 ]
             }
-        },
-        "has_tagged": {
-            "trigger": "inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "predicates": {
-                            "custom_data": {
-                                "ench_id": true
-                            }
-                        }
-                    }
-                ]
-            }
         }
     },
     "requirements": [
         [
-            "has_enchanted",
-            "has_tagged"
+            "has_enchanted"
         ]
     ],
     "rewards": {

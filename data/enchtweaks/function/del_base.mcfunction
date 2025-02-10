@@ -1,4 +1,0 @@
-data modify storage enchtweaks:has_guarding Inventory set from entity @s Inventory
-data remove storage enchtweaks:has_guarding Inventory[{components:{"minecraft:enchantments":{levels:{"enchtweaks:has_guarding":1}}}}]
-execute if data storage enchtweaks:has_guarding Invenntory[{components:{"minecraft:custom_data":{has_guarding:true}}}] run data modify storage enchtweaks:has_guarding Slot set from storage enchtweaks:has_guarding Invenntory[{components:{"minecraft:custom_data":{has_guarding:true}}}].Slot
-execute if data storage enchtweaks:has_guarding Invenntory[{components:{"minecraft:custom_data":{has_guarding:true}}}] run function enchtweaks:del_macro with storage enchtweaks:has_guarding
